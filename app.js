@@ -8,6 +8,7 @@ function checkForDuplicates() {
 
     if (query === '') {
         resultsDiv.innerHTML = '';
+        resultsDiv.className = '';
         return;
     }
 
